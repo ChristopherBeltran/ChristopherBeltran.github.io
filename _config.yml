@@ -1,10 +1,10 @@
 # Site settings
-title: 
+title: Freaky Styley JS
 header-img: img/home-bg.png
 email: christod.beltran@gmail.com
 copyright_name: ChristopherBeltran
 description: > # this means to ignore newlines until "baseurl:"
-  
+  One Commit At A Time
 baseurl: "" # the subpath of your site, e.g. /blog
 twitter_username: 
 github_username:  ChristopherBeltran
