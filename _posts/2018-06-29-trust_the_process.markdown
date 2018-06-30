@@ -1,7 +1,7 @@
 ---
 layout: post
 title:      "Trust The Process"
-date:       2018-06-30 01:48:21 +0000
+date:       2018-06-29 21:48:22 -0400
 permalink:  trust_the_process
 ---
 
@@ -9,8 +9,6 @@ permalink:  trust_the_process
 I'm coming up on my 1-month mark in the Web Development immersive, and already I've found myself all over the emotional spectrum.  After spending extensive time with Javascript prior to the program, I've been able to absorb a lot of the Ruby concepts in stride.  However, there have been two occasions thus far in which I've found myself in terminal purgatory.
 
 Loop iteration being my first downfall, I ended up spending majority of my Saturday trying to figure out how to loop over and declare the winning combination in the tic-tac-toe game.  Each method I attempted was failing on me, and not extracting all 3 placements of the winning combination.  Let the facedesking begin.
-
-At times like these, I become much too determined, to a fault.  In which I feel like I’ve come so far and put in so much effort on my own, that I have to just suck it up and make it work, as opposed to just asking for help. But now in retrospect, when I think about all the hours I lost spinning my wheels, plus the time I spent later to go back and refactor the code, it’s quite maddening.  This is going to be key for me to overcome as I try to stay the course with the schedule I’ve laid out for myself.  
 
 I won’t dare paste the initial code that I started out with, because I just can’t bring myself to lay eyes on it again...but this is the loop I finally ended up with.
 
@@ -30,6 +28,8 @@ WIN_COMBINATIONS.each do |combos|
 
 
 Up until this point, I was only iterating over single arrays that consisted of a few elements.  But not until after I disgustingly hardcoded the combinations did I finally break through and find that I was able to extract each element individually through each array index, and in turn verifying those index placements on the board.  
+
+At times like these, I become much too determined, to a fault.  In which I feel like I’ve come so far and put in so much effort on my own, that I have to just suck it up and make it work, as opposed to just asking for help. But now in retrospect, when I think about all the hours I lost spinning my wheels, plus the time I spent later to go back and refactor the code, it’s quite maddening.  This is going to be key for me to overcome as I try to stay the course with the schedule I’ve laid out for myself.  
 
 Loops used to terrify me, and now I find myself fascinated by them and their efficiency.  Since starting the program, that has become a persistent thought of mine, is how can I be the most efficient?  With having to balance my time so carefully these days, it's forced me to take an analytical approach out of my codebase and start applying it to my day to day schedule.  
 
