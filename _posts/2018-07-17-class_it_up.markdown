@@ -67,7 +67,7 @@ Implementing the **attr_accessor** macro with the instance variables, takes the 
 def add_player(name, position)
 if roster.include?(position)
     roster[position] << name
-    else 
+else 
     roster[position] = []
     roster[position] << name
     end 
