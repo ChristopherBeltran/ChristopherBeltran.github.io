@@ -1,14 +1,14 @@
 ---
 layout: post
 title:      "Class It Up"
-date:       2018-07-18 00:46:04 +0000
+date:       2018-07-17 20:46:05 -0400
 permalink:  class_it_up
 ---
 
 
 The way I view Classes, is as a set of blueprints that will allow us to plug and play in the future.  A class can also be viewed as a factory, that consists of an assembly line, all working together to churn out a product.  In the world of Ruby, the assembly line processes are referred to as methods, while the product being churned out is our object.
 
-Each object is manufactured through these methods, with attributes and behaviors added to it along the way.  I'm going to give a high level overview of what the process would look like to add an expansion team to Major Leage Baseball, by plugging into a class.
+Each object is manufactured through these methods, with attributes and behaviors added to it along the way.  I'm going to give a high level overview of what the process would look like to add an expansion team to Major League Baseball, by plugging into a class.
 
 * I'll start off by creating the class **Team**
 
