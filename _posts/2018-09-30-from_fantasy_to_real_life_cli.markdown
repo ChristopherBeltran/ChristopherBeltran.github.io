@@ -11,7 +11,7 @@ Before getting started, as I wrapped up the last sections of the OO module and w
 
 I took a day or two to decompress and to brainstorm some ideas on what exactly I wanted to build.  Before I even started the program I had been bursting with ideas for a number of apps I wanted to attempt to build and experiment with.  I flushed everything out and tried to determine a user flow for each, and what would actually be attainable at this point in my engineering career, with regards to the project requirements as well.  I narrowed down to sites from two areas that I’m passionate about, sports and art.  With one ambitious idea that I wasn’t 100% sure would work...while also having one safe fallback idea which would absolutely fulfill the project requirements.  The latter was set to be a interface that provided the user with a list of art galleries within a given location provided by the user.  I had scoped out the layout of the site and found that the necessary elements to scrape were all conveniently formatted in one class or div.  I saw through that project lifecycle immediately and how it would play out.  Then I moved on to my first idea, which was to scrape a fantasy football statistical site.  Which was everything the art source was not… Deeply nested divs and tables while the required data was located on multiple pages.
 
- I decided to pursue the football project.  What won me over, was the idea of the challenge and really finding out if I’m cut out for this, while also seeing the ways in which the application can be expanded in the future.  Before I started wireframing and setting up project requirements I took a few days to read over gem documentation, review other projects and watch some of the recorded study groups.  The study groups were an awesome resource and truly got me comfortable enough to take the first step out the door.  
+ I decided to pursue the football project.  What won me over, was the idea of the challenge and really finding out if I’m cut out for this, while also seeing the ways in which the application could be expanded in the future.  Before I started wireframing and setting up project requirements I took a few days to read over gem documentation, review other projects and watch some of the recorded study groups.  The study groups were an awesome resource and truly got me comfortable enough to take the first step out the door.  
 
 When I began the initial project framework,  I intended to scrape fantasy football projections for each position of QB, RB, WR, and TE.  Then to compile the players to be displayed in two different views, an overall view with all players combined and sorted by their respective weekly projected points, and then the second view, which would be by each position.  The user would be given the option at the main menu to choose which view they wanted to see.  
 
@@ -119,6 +119,7 @@ class Scraper
 
 ```
 
+Pretty gross I know.
 
 I found myself getting lost in a forest of hashes.  With no clear way on how I was going to set all this data into object form. This was the darkest point of the project as I was unsure how to proceed, or if I would even be able to at all.  Ringing in my head, was Etan warning me about the most common mistakes that he had heard of students making during this project, in which they get so caught up in trying to make the most amazing app imaginable.  
 
