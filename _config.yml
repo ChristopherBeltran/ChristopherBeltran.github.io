@@ -1,15 +1,14 @@
 # Site settings
-title: Freaky Styley JS
+author: Christopher Beltran
+title: From Madness To Mastery
 header-img: img/home-bg.png
 email: christod.beltran@gmail.com
-copyright_name: ChristopherBeltran
+copyright_name: Christopher Beltran
 description: > # this means to ignore newlines until "baseurl:"
   One Commit At A Time
 baseurl: "" # the subpath of your site, e.g. /blog
 twitter_username: 
 github_username:  ChristopherBeltran
-learn_profile: ChristopherBeltran
-email_username: christod.beltran@gmail.com
 
 # Build settings
 markdown: kramdown
