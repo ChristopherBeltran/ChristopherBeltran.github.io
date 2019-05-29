@@ -6,9 +6,9 @@ permalink:  from_building_with_legos_to_a_barrel_of_monkeys
 ---
 
 
-This is exactly what programming felt like after taking the leap from writing code in Ruby for 8 months, to now having to code in Javascript.  This was still my feeling despite the fact that the first language I ever started learning in was Javascript almost two years ago.  But after spending real structured learning time with Ruby for so long, it made me fall in love.
+This is exactly what programming felt like after taking the leap from writing code in Ruby for 8 months, to now having to code in Javascript.  This was still my feeling despite the fact that the first language I ever started learning was in fact Javascript almost two years ago.  But after spending real structured learning time with Ruby for so long, it made me fall in love.
 
-The first stark difference that you see between the two is the overall readability.  Now, a lot of this has to do with the fact that Javascript must interface with more external sources such as formulating API calls, and inserting and modifying HTML elements.  
+The first stark difference that you see between the two is the overall readability.  Now, a lot of this has to do with the fact that Javascript must interface with more external sources such as formulating API calls, and inserting and modifying HTML elements.  Whereas in Ruby you are dealing with clearly identified (most of the time) database schemas and class attributes.  
 
 The other big difference for me was modularity.  A typical Ruby application is sectioned off very nicely when following the MVC design framework.
 
@@ -112,10 +112,9 @@ The other big difference for me was modularity.  A typical Ruby application is s
     <br>
     <input type="submit" name="commit" value="Add Pet" id="new_pet_button" data-disable-with="Add Pet">
     </form>
-`
 
-*The helpers automatically make all of the associations between the classes and format into HTML.  Magic!
-*
+
+*The helpers automatically make all of the associations between the classes and format into HTML.  Magic!*
 
 * Lastly, the Controller which handles all of the routing of the Web App and is responsible for communicating data between Models and Views.
 
