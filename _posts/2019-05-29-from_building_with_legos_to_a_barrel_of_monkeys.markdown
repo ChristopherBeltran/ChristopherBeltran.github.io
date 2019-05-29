@@ -192,7 +192,7 @@ After setting up the classes, I began to implement the functions that would hous
 I added 7 such functions, each for a particular view in the app:
 
 `adminPetsIndex()`
-*To be called on Ready on the admin/pets index page to receive the API response and then render the list of all Pets in the database*
+*To be called on Ready on the admin/pets index page to receive the API response and then render the list of all Pets in the database.*
 
 `addNewPet()`
 *To be called on submit on the admin/pets/new page to send a POST call and receive the API response and render the newly created Pet by utilizing the `event.preventDefault()` function to stop Submit from the Rails form.*
@@ -201,13 +201,13 @@ I added 7 such functions, each for a particular view in the app:
 *To be called on Ready on the admin/breeds page to receive the API response and then render the list of all Breeds in the database*
 
 `adminBreedsShow(val)`
-*To be called from an onClick event attached to each instance of a Breed displayed on the Breed Index page.  This function then takes the value of a breeds ID as an argument and passes that value into the API call and after receiving the API response, saves the data into local storage to be retrieved on the subsequent page load. *
+*To be called from an onClick event attached to each instance of a Breed displayed on the Breed Index page.  This function then takes the value of a breeds ID as an argument and passes that value into the API call and after receiving the API response, saves the data into local storage to be retrieved on the subsequent page load.*
 
 `petsIndex()`
-*To be called on Ready on the /pets page API response and then render the list of all Pets in the database that are not owned by a user*
+*To be called on Ready on the /pets page API response and then render the list of all Pets in the database that are not owned by a user.*
 
 `myPetsIndex()`
-*To be called on Ready on the users/:id/pets page.  The function fetches the user_id from a dataset and passes it into the API call to receive all of the pets owned by that user*
+*To be called on Ready on the users/:id/pets page.  The function fetches the user_id from a dataset and passes it into the API call to receive all of the pets owned by that user.*
 
 `newAdoption()`
 *To be called on Submit, utilizing the `event.preventDefault()` function to stop Submit from the Rails form and instead sent a POST call and receive the API response to render the newly created Adoption.  This function also includes a second API call to `$.getJSON(/pets/${petId}.json)` which makes a call to the endpoint in order to allow a new Javascript instance of the Pet class to be created and be able to render that Pets vital information on the page.*
