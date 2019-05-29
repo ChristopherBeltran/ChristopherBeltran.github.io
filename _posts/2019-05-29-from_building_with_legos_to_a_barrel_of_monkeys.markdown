@@ -284,7 +284,7 @@ Since the Pet class is effectively used in 3 separate aspects, it required diffe
 
 And that's that.  
 
-I started off this project deeply intimidated by the thought of having to write this much Javascript and essentially being back in the novice stage of a language after becoming so fluent in Ruby, but once I was able to conceptually get over the differences between the two, I found myself in a much better place.  I learned to appreciate the fluidness of Javascript engineering, in particular, hoisting, callback methods and manipulating JSON responses.  I also picked up a few new things along the way such as saving to and retrieving from local storage.  As with all of my projects at Flatiron, truly rewarding to finally hit that last commit and be able to navigate bug-free through a complex application of your own creation.
+I started off this project deeply intimidated by the thought of having to write this much Javascript and essentially being back in the novice stage of a language after becoming so fluent in Ruby.  But once I was able to conceptually get over the differences between the two, I found myself in a much better place.  I learned to appreciate the fluidness of Javascript engineering, in particular, hoisting, callback methods and manipulating JSON responses.  I also picked up a few new things along the way such as saving to and retrieving from local storage.  As with all of my projects at Flatiron, truly rewarding to finally hit that last commit and be able to navigate bug-free through a complex application of your own creation.
 		
 
 
