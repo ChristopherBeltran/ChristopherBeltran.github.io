@@ -15,7 +15,8 @@ The other big difference for me was modularity.  A typical Ruby application is s
 * The Model folder houses a variety of files, with each file being a "Class".  The way classes are structured is another great beauty of Ruby:
 
 
- ```
+ 
+```
   class User < ActiveRecord::Base
   include Titleize
   include Displayname
@@ -29,7 +30,8 @@ The other big difference for me was modularity.  A typical Ruby application is s
   validates :email, uniqueness: true
   before_save :tileize_name
   before_create :tileize_name
-	```
+```
+	
 	
 	
 *All of the class properties are clearly displayed atop the file along with any relationships that it may have to other classes and any validations that will take place before an instance of the class is allowed to be persisted to the database.*
@@ -46,7 +48,7 @@ The other big difference for me was modularity.  A typical Ruby application is s
 <%= f.number_field :age %>
 <br>
 <%= collection_check_boxes :pet, :breed_ids, Breed.all, :id, :name do |b| %>
-    <div> <%= b.check_box %><%= b.label { b.text } %></div>
+   <div> <%= b.check_box %><%= b.label { b.text } %></div>
     <% end %>
 <br>
 <%= f.fields_for :breed_attributes, @pet.breeds.build do |breeds_fields| %>
