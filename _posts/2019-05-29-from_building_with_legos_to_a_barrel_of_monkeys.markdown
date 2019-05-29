@@ -61,7 +61,7 @@ The other big difference for me was modularity.  A typical Ruby application is s
 ```
 
 
-*This code with Rails helpers will generate this HTML in the browser:*
+*The code above with Rails helpers will generate this HTML below in the browser:*
 
 
 ``` 
