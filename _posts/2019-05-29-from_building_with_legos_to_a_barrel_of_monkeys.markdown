@@ -125,7 +125,7 @@ Thankfully, the first project after moving on from Ruby is a refactor of the Rai
 
 The bulk of this project is absolutely spent writing Javascript (I have 312 lines of Javascript code to prove it!), but there is still a good amount of work that goes into getting the Ruby on Rails backend portion set up.
 
-But, before I even wrote one line of new code for this project, I addressed a problem that had plagued each and every one of my last projects: **Scope Creep**.  
+But, before I even wrote one line of new code for this project, I addressed a problem that had plagued each and every one of my previous projects: **Scope Creep**.  
 
 To avoid this, I decided to approach the project the same way I approach projects at work, by divvying up every chunk of development into granular tasks and aligning each of those tasks with a particular project requirement.  The result was me constructing my very own Kanban board:
 
