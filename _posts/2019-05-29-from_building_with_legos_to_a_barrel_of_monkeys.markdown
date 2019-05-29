@@ -116,7 +116,7 @@ The other big difference for me was modularity.  A typical Ruby application is s
 
 *The helpers automatically make all of the associations between the classes and format into HTML.  Magic!*
 
-* Lastly, the Controller which handles all of the routing of the Web App and is responsible for communicating data between Models and Views.
+* Lastly, the Controller which handles all of the routing of the Web App and is responsible for communicating data between Models and Views.  The Controller is exactly as it sounds, acting as the control tower of the application deciding which views need to be rendered after a given action and deciding what to fetch from the Models and how to send it to be displayed in the Views.  
 
 
 With all this ease and beauty provided by one language, how can one possibly leave?!
@@ -125,7 +125,7 @@ Thankfully, the first project after moving on from Ruby is a refactor of the Rai
 
 The bulk of this project is absolutely spent writing Javascript (I have 312 lines of Javascript code to prove it!), but there is still a good amount of work that goes into getting the Ruby on Rails backend portion set up.
 
-Before I even wrote one line of new code for this project, I addressed a problem that had plagued each and every one of my last projects: **Scope Creep**.  
+But, before I even wrote one line of new code for this project, I addressed a problem that had plagued each and every one of my last projects: **Scope Creep**.  
 
 To avoid this, I decided to approach the project the same way I approach projects at work, by divvying up every chunk of development into granular tasks and aligning each of those tasks with a particular project requirement.  The result was me constructing my very own Kanban board:
 
