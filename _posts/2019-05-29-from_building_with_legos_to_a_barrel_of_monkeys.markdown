@@ -39,7 +39,8 @@ The other big difference for me was modularity.  A typical Ruby application is s
 
 * The Views folder contains all of the user facing views that they will encounter throughout the application, in the form of HTML files.  Where Ruby thrives in this aspect, is all thanks to Rails.  The Rails framework contains an incredible library of "helpers" that require the developer to simply write shorthand code in the view file only to have it generate full lines of HTML in the web client.  
 
-`
+
+```
 <%= form_for @pet, :url => admin_pet_create_path do |f| %>
 <%= f.label :name %>
 <%= f.text_field :name %>
@@ -56,7 +57,8 @@ The other big difference for me was modularity.  A typical Ruby application is s
 <%= f.label "New breed?" %>
 <%= breeds_fields.text_field :name %>
 <br>
-<%= f.submit "Add Pet", id: "new_pet_button" %>`
+<%= f.submit "Add Pet", id: "new_pet_button" %>
+```
 
 
 *This code with Rails helpers will generate this HTML in the browser:*
