@@ -216,6 +216,8 @@ I added 7 such functions, each for a particular view in the app:
 All of these functions were heavily dependent  on the Class Prototype functions that I set up.  
 
 The Pet class housed the majority of these functions:
+
+
 ```
 ownedStatus() {
         if (this.users.length > 0){
@@ -273,8 +275,9 @@ ownedStatus() {
         <td>${this.adoptions[0].adoption_date}</td>
     </tr>
     `);
-    }```
-		```
+    }
+```
+		
 Since the Pet class is effectively used in 3 separate aspects, it required different functions to display the instances across the pages, as the available pet options and pet information varied for each view.
 
 
