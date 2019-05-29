@@ -131,7 +131,7 @@ To avoid this, I decided to approach the project the same way I approach project
 
 <a href="https://ibb.co/HqWsJrP"><img src="https://i.ibb.co/Pg7nS5W/Screen-Shot-2019-05-15-at-4-36-57-PM.png" alt="Screen-Shot-2019-05-15-at-4-36-57-PM" border="0"></a>
 
-I broke down which tasks fell under Javascript Development and which fell under Ruby development, while then proceeding to align each task with the appropriate project requirement.  
+I broke down which tasks fell under Javascript development and which fell under Ruby development, while then proceeding to align each task with the appropriate project requirement that it is contributing to.  
 
 On the Ruby front, I started by coding out Serializer classes for my User, Pet, Breed and Adoption models.  Each Serializer class contained the Models given `has_many` or `belongs_to` associations as well as the attributes I needed to Serialize for the JSON response.
 
