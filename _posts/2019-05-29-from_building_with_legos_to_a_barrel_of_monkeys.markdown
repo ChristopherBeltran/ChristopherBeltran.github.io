@@ -1,7 +1,7 @@
 ---
 layout: post
 title:      "From building with Legos to...a barrel of monkeys"
-date:       2019-05-29 05:32:07 +0000
+date:       2019-05-29 01:32:07 -0400
 permalink:  from_building_with_legos_to_a_barrel_of_monkeys
 ---
 
@@ -37,7 +37,7 @@ The other big difference for me was modularity.  A typical Ruby application is s
 
 * The Views folder contains all of the user facing views that they will encounter throughout the application, in the form of HTML files.  Where Ruby thrives in this aspect, is all thanks to Rails.  The Rails framework contains an incredible library of "helpers" that require the developer to simply write shorthand code in the view file only to have it generate full lines of HTML in the web client.  
 
-```
+`
 <%= form_for @pet, :url => admin_pet_create_path do |f| %>
 <%= f.label :name %>
 <%= f.text_field :name %>
@@ -54,12 +54,13 @@ The other big difference for me was modularity.  A typical Ruby application is s
 <%= f.label "New breed?" %>
 <%= breeds_fields.text_field :name %>
 <br>
-<%= f.submit "Add Pet", id: "new_pet_button" %>
-```
+<%= f.submit "Add Pet", id: "new_pet_button" %>`
+
 
 *This code with Rails helpers will generate this HTML in the browser:*
 
-```
+
+``` 
 <form class="new_pet" id="new_pet" action="/admin/pets" accept-charset="UTF-8" method="post"><input name="utf8" type="hidden" value="✓"><input type="hidden" name="authenticity_token" value="VGNhaIcPH4DafxfJ3HbKnY3xeMa+JXspk3prP/00bf97KS6UU2nIhP6cUnLnjLK27FOhX5LM/1euBOxys2RoAg==">
 <label for="pet_name">Name</label>
 <input type="text" name="pet[name]" id="pet_name">
@@ -68,7 +69,8 @@ The other big difference for me was modularity.  A typical Ruby application is s
 <input type="number" name="pet[age]" id="pet_age">
 <br>
 <input type="hidden" name="pet[breed_ids][]" value="">
-    <div> <input type="checkbox" value="1" name="pet[breed_ids][]" id="pet_breed_ids_1"><label for="pet_breed_ids_1">German Shepard</label></div>
+<div> <input type="checkbox" value="1" name="pet[breed_ids][]" id="pet_breed_ids_1"><label for="pet_breed_ids_1">German Shepard</label></div>
+```
 
     <div> <input type="checkbox" value="2" name="pet[breed_ids][]" id="pet_breed_ids_2"><label for="pet_breed_ids_2">Labrador</label></div>
 
@@ -99,15 +101,14 @@ The other big difference for me was modularity.  A typical Ruby application is s
     <div> <input type="checkbox" value="15" name="pet[breed_ids][]" id="pet_breed_ids_15"><label for="pet_breed_ids_15">Weiner</label></div>
 
     <div> <input type="checkbox" value="16" name="pet[breed_ids][]" id="pet_breed_ids_16"><label for="pet_breed_ids_16">Schnauzer</label></div>
-<br>
-
-<br>
-<label for="pet_New breed">New breed?</label>
-<input type="text" name="pet[breed_attributes][name]" id="pet_breed_attributes_name">
-<br>
-<input type="submit" name="commit" value="Add Pet" id="new_pet_button" data-disable-with="Add Pet">
-</form>
-```
+    <br>
+    <br>
+    <label for="pet_New breed">New breed?</label>
+    <input type="text" name="pet[breed_attributes][name]" id="pet_breed_attributes_name">
+    <br>
+    <input type="submit" name="commit" value="Add Pet" id="new_pet_button" data-disable-with="Add Pet">
+    </form>
+`
 
 *The helpers automatically make all of the associations between the classes and format into HTML.  Magic!
 *
