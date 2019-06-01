@@ -1,6 +1,6 @@
 ---
 layout: post
-title:      "From building with Legos to...a barrel of monkeys"
+title:      "Building with Legos to...a barrel of monkeys"
 date:       2019-05-29 01:32:07 -0400
 permalink:  from_building_with_legos_to_a_barrel_of_monkeys
 ---
