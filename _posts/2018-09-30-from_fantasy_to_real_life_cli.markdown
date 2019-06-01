@@ -1,6 +1,6 @@
 ---
 layout: post
-title:      "From fantasy to real life CLI"
+title:      "Fantasy to real life CLI"
 date:       2018-09-30 02:15:17 -0400
 permalink:  from_fantasy_to_real_life_cli
 ---
