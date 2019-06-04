@@ -1,7 +1,7 @@
 ---
 layout: post
 title:      "JS Hoisting and Scope"
-date:       2019-06-04 05:06:31 +0000
+date:       2019-06-04 01:06:32 -0400
 permalink:  js_hoisting_and_scope
 ---
 
@@ -62,10 +62,12 @@ This example will return `undefined` rather than `Uncaught ReferenceError: x is 
 
 The following example will show a variable being hoisted.
 
-```x = "I'll be initialized after the declaration";
+```
+x = "I'll be initialized after the declaration";
 console.log(x);
 var x;
 ```
+
 
 The console is able to log the value of `x` due to the fact that the initialization takes place after the variable declaration is hoised to the top.  This variable hoisting can lead to potential issues when declaring a variable in the global scope and then redeclaring within a local block scope, which leads to the next section on Scope.
 
@@ -78,6 +80,7 @@ Variables declared globally are accessible throughout the whole script, in and o
 
 For example:
 
+
 ```
 const globalVariable = "I'm global";
 
@@ -87,6 +90,7 @@ function messageLog() {
 console.log(globalVariable);
 }
 ```
+
 
 The `globalVariable` line is able to return the value of the variable and the function is also able to log the value of the variable from within the function.
 
