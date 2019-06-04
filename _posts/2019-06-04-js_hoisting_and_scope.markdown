@@ -96,8 +96,8 @@ The `globalVariable` line is able to return the value of the variable and the fu
 
 Next, I'll show an example of variables declared within functions and their accessibility:
 
-```
 
+```
 function globalVariable() {
 var imGlobal = "Accessible";
 }
@@ -111,14 +111,16 @@ window.imGlobal;
 window.notGlobal;
 ```
 
+
 The call to `window.imGlobal` will return the value of the variable that was declared within the function due to `var` having a global scope, while the call to `window.notGlobal` will return `undefined` since the variable declaration is only accessible from within that block scope.  
 
 Similarly, while working within a function there will be different capabilities of the variables.
 
 For example:
 
-```
 
+
+```
 let x = "first value"
 
 function scopingTest() {
@@ -136,6 +138,7 @@ console.log(y);
 console.log(y);
 ```
 
+
 The first console log will display the value for `x` as it was assigned within the block of the function, whereas the second console.log will display the `x` value as it was assigned outside of the function scope.  It is the same variable being declared with `let` however, since the `let` declarations within the function only have block scope, it treats `x` as a completely new variable, so it does not affect the `x` that was assigned outside of the function.
 
 Now, the second set of console logs will both return the same value for y `Second y value`, due to the scope of the `var` variable declaration.
@@ -144,10 +147,12 @@ There is also a difference between function declarations.
 
 `var` and `let` can be declared without being initialized
 
+
 ```
 var x;
 let y;
 ```
+
 
 However, `const` requires an initialization upon declaration.
 
